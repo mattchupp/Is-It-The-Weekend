@@ -30,8 +30,6 @@
     // today's date
     NSDate *todaysDate = date;
     
-    NSLog(@"%@", todaysDate);
-    
     
     // format date to [Mon, day, year]
     _dateToday.text = [NSDateFormatter localizedStringFromDate:date
