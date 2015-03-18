@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95297FE91ABA0CAB0052DE65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95297FE81ABA0CAB0052DE65 /* main.m */; };
+		95297FF41ABA0CAB0052DE65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95297FF31ABA0CAB0052DE65 /* Images.xcassets */; };
+		952980031ABA0CAB0052DE65 /* TheWeekendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 952980021ABA0CAB0052DE65 /* TheWeekendTests.m */; };
+		952980171ABA0DAA0052DE65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 952980131ABA0DAA0052DE65 /* AppDelegate.m */; };
+		952980181ABA0DAA0052DE65 /* MCWeekendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952980151ABA0DAA0052DE65 /* MCWeekendViewController.m */; };
+		952980191ABA0DAA0052DE65 /* MCWeekendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 952980161ABA0DAA0052DE65 /* MCWeekendViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95297FFD1ABA0CAB0052DE65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95297FDB1ABA0CAB0052DE65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95297FE21ABA0CAB0052DE65;
+			remoteInfo = TheWeekend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95297FE31ABA0CAB0052DE65 /* TheWeekend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheWeekend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95297FE71ABA0CAB0052DE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95297FE81ABA0CAB0052DE65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95297FEA1ABA0CAB0052DE65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95297FF31ABA0CAB0052DE65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		95297FFC1ABA0CAB0052DE65 /* TheWeekendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheWeekendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		952980011ABA0CAB0052DE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952980021ABA0CAB0052DE65 /* TheWeekendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheWeekendTests.m; sourceTree = "<group>"; };
+		952980131ABA0DAA0052DE65 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		952980141ABA0DAA0052DE65 /* MCWeekendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCWeekendViewController.h; sourceTree = "<group>"; };
+		952980151ABA0DAA0052DE65 /* MCWeekendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCWeekendViewController.m; sourceTree = "<group>"; };
+		952980161ABA0DAA0052DE65 /* MCWeekendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCWeekendViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95297FE01ABA0CAB0052DE65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95297FF91ABA0CAB0052DE65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95297FDA1ABA0CAB0052DE65 = {
+			isa = PBXGroup;
+			children = (
+				95297FE51ABA0CAB0052DE65 /* TheWeekend */,
+				95297FFF1ABA0CAB0052DE65 /* TheWeekendTests */,
+				95297FE41ABA0CAB0052DE65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95297FE41ABA0CAB0052DE65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95297FE31ABA0CAB0052DE65 /* TheWeekend.app */,
+				95297FFC1ABA0CAB0052DE65 /* TheWeekendTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95297FE51ABA0CAB0052DE65 /* TheWeekend */ = {
+			isa = PBXGroup;
+			children = (
+				95297FEA1ABA0CAB0052DE65 /* AppDelegate.h */,
+				952980131ABA0DAA0052DE65 /* AppDelegate.m */,
+				952980141ABA0DAA0052DE65 /* MCWeekendViewController.h */,
+				952980151ABA0DAA0052DE65 /* MCWeekendViewController.m */,
+				952980161ABA0DAA0052DE65 /* MCWeekendViewController.xib */,
+				95297FF31ABA0CAB0052DE65 /* Images.xcassets */,
+				95297FE61ABA0CAB0052DE65 /* Supporting Files */,
+			);
+			path = TheWeekend;
+			sourceTree = "<group>";
+		};
+		95297FE61ABA0CAB0052DE65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95297FE71ABA0CAB0052DE65 /* Info.plist */,
+				95297FE81ABA0CAB0052DE65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95297FFF1ABA0CAB0052DE65 /* TheWeekendTests */ = {
+			isa = PBXGroup;
+			children = (
+				952980021ABA0CAB0052DE65 /* TheWeekendTests.m */,
+				952980001ABA0CAB0052DE65 /* Supporting Files */,
+			);
+			path = TheWeekendTests;
+			sourceTree = "<group>";
+		};
+		952980001ABA0CAB0052DE65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				952980011ABA0CAB0052DE65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95297FE21ABA0CAB0052DE65 /* TheWeekend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952980061ABA0CAB0052DE65 /* Build configuration list for PBXNativeTarget "TheWeekend" */;
+			buildPhases = (
+				95297FDF1ABA0CAB0052DE65 /* Sources */,
+				95297FE01ABA0CAB0052DE65 /* Frameworks */,
+				95297FE11ABA0CAB0052DE65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheWeekend;
+			productName = TheWeekend;
+			productReference = 95297FE31ABA0CAB0052DE65 /* TheWeekend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95297FFB1ABA0CAB0052DE65 /* TheWeekendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952980091ABA0CAB0052DE65 /* Build configuration list for PBXNativeTarget "TheWeekendTests" */;
+			buildPhases = (
+				95297FF81ABA0CAB0052DE65 /* Sources */,
+				95297FF91ABA0CAB0052DE65 /* Frameworks */,
+				95297FFA1ABA0CAB0052DE65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95297FFE1ABA0CAB0052DE65 /* PBXTargetDependency */,
+			);
+			name = TheWeekendTests;
+			productName = TheWeekendTests;
+			productReference = 95297FFC1ABA0CAB0052DE65 /* TheWeekendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95297FDB1ABA0CAB0052DE65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = MattChupp;
+				TargetAttributes = {
+					95297FE21ABA0CAB0052DE65 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					95297FFB1ABA0CAB0052DE65 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 95297FE21ABA0CAB0052DE65;
+					};
+				};
+			};
+			buildConfigurationList = 95297FDE1ABA0CAB0052DE65 /* Build configuration list for PBXProject "TheWeekend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95297FDA1ABA0CAB0052DE65;
+			productRefGroup = 95297FE41ABA0CAB0052DE65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95297FE21ABA0CAB0052DE65 /* TheWeekend */,
+				95297FFB1ABA0CAB0052DE65 /* TheWeekendTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95297FE11ABA0CAB0052DE65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952980191ABA0DAA0052DE65 /* MCWeekendViewController.xib in Resources */,
+				95297FF41ABA0CAB0052DE65 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95297FFA1ABA0CAB0052DE65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95297FDF1ABA0CAB0052DE65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952980171ABA0DAA0052DE65 /* AppDelegate.m in Sources */,
+				95297FE91ABA0CAB0052DE65 /* main.m in Sources */,
+				952980181ABA0DAA0052DE65 /* MCWeekendViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95297FF81ABA0CAB0052DE65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952980031ABA0CAB0052DE65 /* TheWeekendTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95297FFE1ABA0CAB0052DE65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95297FE21ABA0CAB0052DE65 /* TheWeekend */;
+			targetProxy = 95297FFD1ABA0CAB0052DE65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		952980041ABA0CAB0052DE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		952980051ABA0CAB0052DE65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		952980071ABA0CAB0052DE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheWeekend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		952980081ABA0CAB0052DE65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheWeekend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9529800A1ABA0CAB0052DE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TheWeekendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheWeekend.app/TheWeekend";
+			};
+			name = Debug;
+		};
+		9529800B1ABA0CAB0052DE65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TheWeekendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheWeekend.app/TheWeekend";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95297FDE1ABA0CAB0052DE65 /* Build configuration list for PBXProject "TheWeekend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952980041ABA0CAB0052DE65 /* Debug */,
+				952980051ABA0CAB0052DE65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952980061ABA0CAB0052DE65 /* Build configuration list for PBXNativeTarget "TheWeekend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952980071ABA0CAB0052DE65 /* Debug */,
+				952980081ABA0CAB0052DE65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952980091ABA0CAB0052DE65 /* Build configuration list for PBXNativeTarget "TheWeekendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9529800A1ABA0CAB0052DE65 /* Debug */,
+				9529800B1ABA0CAB0052DE65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95297FDB1ABA0CAB0052DE65 /* Project object */;
+}
