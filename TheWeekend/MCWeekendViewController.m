@@ -39,7 +39,7 @@
     
     // is date a weekend?
     BOOL wkend = [cal isDateInWeekend:todaysDate];
-    
+    //NSLog(@"%i", wkend);
     
     if (wkend) {
         
