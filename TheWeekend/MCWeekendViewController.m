@@ -19,12 +19,12 @@
 
 @implementation MCWeekendViewController
 
+
 - (void)viewDidLoad {
     
     [super viewDidLoad];
     
-    
-    NSCalendar *cal = [[NSCalendar alloc] initWithCalendarIdentifier:@"Gregorian"];
+    NSCalendar *cal = [[NSCalendar alloc] initWithCalendarIdentifier:@"gregorian"];
     NSDate *date = [[NSDate alloc] init];
     
     // today's date
@@ -35,7 +35,7 @@
     _dateToday.text = [NSDateFormatter localizedStringFromDate:date
                                                      dateStyle:NSDateFormatterMediumStyle
                                                      timeStyle:NSDateFormatterNoStyle];
-   
+    NSLog(@"%@", todaysDate);
     
     // is date a weekend?
     BOOL wkend = [cal isDateInWeekend:todaysDate];
