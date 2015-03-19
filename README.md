@@ -1,4 +1,4 @@
-# IsItTheWeekend
+# Is It The Weekend
 
 Playing around with NSCalendar and NSDate. 
 
