@@ -11,9 +11,9 @@
 
 @interface MCWeekendViewController ()
 
-@property (nonatomic, weak) IBOutlet UILabel *isItWeekend;
-@property (nonatomic, weak) IBOutlet UILabel *yesOrNo;
-@property (nonatomic, weak) IBOutlet UILabel *dateToday; 
+@property (nonatomic, weak) IBOutlet UILabel *dateToday;
+@property (nonatomic, weak) IBOutlet UILabel *daysUntilWeekend;
+@property (nonatomic, weak) IBOutlet UILabel *untilTheWeekend;
 
 @end
 
@@ -35,24 +35,46 @@
     _dateToday.text = [NSDateFormatter localizedStringFromDate:date
                                                      dateStyle:NSDateFormatterMediumStyle
                                                      timeStyle:NSDateFormatterNoStyle];
+    
+    // log today's date in console
     NSLog(@"%@", todaysDate);
     
     // is date a weekend?
-    BOOL wkend = [cal isDateInWeekend:todaysDate];
-    //NSLog(@"%i", wkend);
+    // BOOL wkend = [cal isDateInWeekend:todaysDate];
     
-    if (wkend) {
+    
+    // days until weekend
+    int daysToAdd = 0;
+    NSDate *newDate = [[NSDate alloc] init];
+    
+    // adds a day to the current date until date is in the weekend
+    while (![cal isDateInWeekend:newDate]) {
         
-        _yesOrNo.text = @"Yes";
-        _yesOrNo.textColor = [UIColor greenColor];
+        daysToAdd++;
+        newDate = [todaysDate dateByAddingTimeInterval:60*60*24*daysToAdd]; // adds a day 
+        
+    }
+    
+    if (daysToAdd > 1) {
+    
+        _daysUntilWeekend.text = [NSString stringWithFormat:@"There are %d more days", daysToAdd];
+        _untilTheWeekend.text = @"until the weekend!";
+        
+    }
+    else if (daysToAdd == 1) {
+        
+        _daysUntilWeekend.text = [NSString stringWithFormat:@"There is %d more day", daysToAdd];
+        _untilTheWeekend.text = @"until the weekend!";
         
     } else {
         
-        _yesOrNo.text = @"No";
-        _yesOrNo.textColor = [UIColor redColor];
+        _daysUntilWeekend.text = @"It is the weekend!";
+        _daysUntilWeekend.textColor = [UIColor greenColor];
+        _untilTheWeekend.text = @""; 
+        
     }
     
-    
+
     
 }
 
