@@ -36,6 +36,7 @@
                                                      dateStyle:NSDateFormatterMediumStyle
                                                      timeStyle:NSDateFormatterNoStyle];
     
+    
     // log today's date in console
     NSLog(@"%@", todaysDate);
     
@@ -75,8 +76,18 @@
     }
     
 
+    NSLog(@"There is %d more day", daysToAdd);
+    
+    UILocalNotification *note = [[UILocalNotification alloc] init];
+    note.alertBody = [NSString stringWithFormat:@"There is %d more day", daysToAdd];
+    note.fireDate = todaysDate;
+    
+    [[UIApplication sharedApplication] scheduleLocalNotification:note];
+    
     
 }
+
+
 
 
 
